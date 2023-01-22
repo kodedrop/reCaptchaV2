@@ -1,5 +1,5 @@
 {
-  "name": "kodedrop/reCaptchaV2",
+  "name": "kodedrop/recaptchav2",
   "type": "library",
   "description": "Php Google Recaptcha V2",
   "keywords": [
