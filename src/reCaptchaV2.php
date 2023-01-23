@@ -5,7 +5,7 @@ class reCaptchaV2 extends Controller
 {
     public static function Script(): string
     {
-        return '   <script src="https://www.google.com/recaptcha/api.js" async defer></script>';
+        return '<script src="https://www.google.com/recaptcha/api.js" async defer></script>';
     }
     public static function Create($ResponseKey, $class = "", $style = ""): string
     {
