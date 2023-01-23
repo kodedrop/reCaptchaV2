@@ -36,7 +36,7 @@ if (isset($_POST['signup'])) { //FormSubmit
         //Next Code
     }
     else{
-        echo "Please Fil Recaptcha"; 'Throw Error';
+        echo "Please Fil Recaptcha"; //Throw Error
     }
 
 }
