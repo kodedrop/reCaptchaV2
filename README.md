@@ -41,6 +41,19 @@ if (isset($_POST['signup'])) { //FormSubmit
 
 }
 ```
+## Customize reCaptchaV2
+```php
+reCaptchaV2::Create('SiteKey','class','styles');
+
+//class And styles optional parameter
+
+//add class like 
+
+reCaptchaV2::Create('SiteKey','mb-5 bg-danger'); //bs5-classess and also use custom classes
+
+//add style like 
+reCaptchaV2::Create('SiteKey','','border:1px solid #333;background-color:#fff;');
+```
 ## Generate Site Key And Secret Key
 ![Image of Generate Site Key And Secret Key](https://developers.google.com/static/recaptcha/images/settings.png)
 ## License
